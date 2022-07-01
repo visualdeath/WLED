@@ -156,9 +156,7 @@ private:
     }
   }
 
-  void _showElements(String *map, int timevar, bool isColon, bool removeZero
-
-) {
+  void _showElements(String *map, int timevar, bool isColon, bool removeZero) {
     if (!(*map).equals("") && !(*map) == NULL) {
       int length = String(timevar).length();
       bool addZero = false;

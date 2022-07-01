@@ -11,6 +11,10 @@
  */
 //#include "../usermods/EXAMPLE_v2/usermod_v2_example.h"
 
+#define USERMOD_SN_PHOTORESISTOR 1
+#define USERMOD_RTC 1
+#define USERMOD_SSDR 1
+
 #ifdef USERMOD_BATTERY_STATUS_BASIC
 #include "../usermods/battery_status_basic/usermod_v2_battery_status_basic.h"
 #endif
